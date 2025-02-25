@@ -40,7 +40,7 @@ This notebook shows how to create a more advanced research-oriented agent that c
 
 ## 🐳 **Development Environment**
 
-This repository includes a **devcontainer** configuration that provides a pre-configured development environment with all the necessary dependencies installed. We recommend using this environment for the best experience.
+This repository is built with **uv** and includes a **devcontainer** configuration that provides a pre-configured development environment with all the necessary dependencies installed. We recommend using one of these environments for the best experience.
 
 ### Using GitHub Codespaces
 
@@ -50,7 +50,31 @@ The easiest way to get started is to create a **GitHub Codespace** with the devc
 2. Select the "Codespaces" tab
 3. Click "Create codespace on main"
 
-This will create a cloud-based development environment with everything you need already set up, allowing you to start working on the workshop immediately without worrying about local configuration.
+This will create a cloud-based development environment with everything you need already set up, allowing you to start working on the workshop immediately without worrying about local configuration. The devcontainer is already pre-configured and ready to go.
+
+### Local Development
+
+If you prefer to work locally, you'll need to:
+
+1. Install **uv** - a fast Python package installer and resolver (https://github.com/astral-sh/uv)
+2. Clone this repository to your local machine
+3. Run `uv sync` in the repository root to install all dependencies
+
+```bash
+# Install uv (if you don't have it already)
+# For macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# For Windows (using PowerShell)
+irm https://astral.sh/uv/install.ps1 | iex
+
+# Clone the repository
+git clone <repository-url>
+cd <repository-directory>
+
+# Install dependencies
+uv sync
+```
 
 ## 🛠️ **Getting Started**
 
