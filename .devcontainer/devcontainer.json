@@ -22,9 +22,7 @@
                         "source.organizeImports": "explicit"
                     }
                 },
-                "ruff.lint.run": "onSave",
-                "ruff.format.args": ["--line-length", "88"],
-                "ruff.lint.args": ["--line-length", "88"]
+                "ruff.lineLength": 80
             }
         }
     },
