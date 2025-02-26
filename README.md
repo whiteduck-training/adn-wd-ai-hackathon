@@ -10,6 +10,8 @@ This workshop is divided into two main parts:
 
 The first part of this workshop consists of completing the **Hugging Face Agent Workshop**, which provides best-in-class fundamentals to get started with AI agents. This external workshop will give you a solid foundation in agent concepts and implementation.
 
+Please visit the [Hugging Face Agent Workshop](https://huggingface.co/learn/agents-course) to get started.
+
 **💡 Bonus:** You can earn a certificate if you have a Hugging Face account when completing the workshop!
 
 ### Part 2: Semantic Kernel Samples

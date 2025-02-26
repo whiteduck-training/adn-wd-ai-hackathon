@@ -32,7 +32,7 @@ requires-dist = [
     { name = "azure-ai-inference", specifier = ">=1.0.0b9" },
     { name = "beautifulsoup4", specifier = ">=4.13.3" },
     { name = "duckduckgo-search", specifier = ">=7.5.0" },
-    { name = "flock-core", extras = ["tools"], specifier = ">=0.3.6" },
+    { name = "flock-core", extras = ["tools"], specifier = ">=0.3.8" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "ipywidgets", specifier = ">=8.1.5" },
@@ -828,7 +828,7 @@ wheels = [
 
 [[package]]
 name = "flock-core"
-version = "0.3.6"
+version = "0.3.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cloudpickle" },
@@ -861,9 +861,9 @@ dependencies = [
     { name = "uvicorn" },
     { name = "zep-python" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/50/1e/ec037b8b95f36016405694e5d41f455f00e287c43b002aacf37081c87fe8/flock_core-0.3.6.tar.gz", hash = "sha256:fa458b040942acbcdbae68a0855dc681c6d18019c7b8407679db0d878b12b980", size = 2982199 }
+sdist = { url = "https://files.pythonhosted.org/packages/a5/db/53ef27bf9e928c5a1eea25dddf011cfac06308f2ca103663bb0b83245637/flock_core-0.3.8.tar.gz", hash = "sha256:fc8e7665be2fbc90f96a5f535cb75bd12df6f51943c7fbb84675d0591067f5cb", size = 3046604 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/75/39/bdb242ffb9b3e64d5220a60a7b9c4536eb195f8ed62ee4a6a9d3fedd6203/flock_core-0.3.6-py3-none-any.whl", hash = "sha256:e65f296b0279a12c4008aa847927a44680add7e3867abef8d78095ac20cad796", size = 352306 },
+    { url = "https://files.pythonhosted.org/packages/a1/5d/fe2cbc2cb3e76004f5af0c89f2fa59a536381a06eeda6fd6b4fc82db1fad/flock_core-0.3.8-py3-none-any.whl", hash = "sha256:32c26269cb8d432aad604056f75af087ad7bba3aab3b5761b8d5c02d6d0d3800", size = 362176 },
 ]
 
 [package.optional-dependencies]
