@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "arxiv>=2.1.3",
+    "autogen-ext[azure,openai,web-surfer]>=0.4.7",
     "azure-ai-inference>=1.0.0b9",
     "beautifulsoup4>=4.13.3",
     "duckduckgo-search>=7.5.0",
